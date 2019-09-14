@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.ramdolpix.MZIDChanger.Models.M2Mini;
 import com.ramdolpix.MZIDChanger.Models.M2Note;
+import com.ramdolpix.MZIDChanger.Models.M3Note;
 import com.ramdolpix.MZIDChanger.Models.M5;
 import com.ramdolpix.MZIDChanger.Models.M5Note;
 import com.ramdolpix.MZIDChanger.Models.M5s;
@@ -136,6 +137,10 @@ public class MainActivity extends AppCompatActivity {
                 M5Note.changeID2Global();
                 infoViewer.setText("Operation complete.");
                 break;
+            case "m3 mote":
+                M3Note.changeID2Global();
+                infoViewer.setText("Operation complete");
+                break;
             case "M2 Note":
                 M2Note.changeID2Global();
                 infoViewer.setText("Operation complete.");
@@ -191,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
                 Note9.changeID2Global();
                 infoViewer.setText("Operation complete.");
                 break;
+
                 default:
                     infoViewer.setText("Error.Can\'t check model.");
                     break;
@@ -205,6 +211,10 @@ public class MainActivity extends AppCompatActivity {
             case "M5 Note":
                 M5Note.changeID2China();
                 infoViewer.setText("Operation complete.");
+                break;
+            case "m3 mote":
+                M3Note.changeID2China();
+                infoViewer.setText("Operation complete");
                 break;
             case "M2 Note":
                 M2Note.changeID2China();
