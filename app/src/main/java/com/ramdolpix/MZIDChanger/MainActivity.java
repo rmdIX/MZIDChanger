@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 M5Note.changeID2Global();
                 infoViewer.setText("Operation complete.");
                 break;
-            case "m3 mote":
+            case "m3 note":
                 M3Note.changeID2Global();
                 infoViewer.setText("Operation complete");
                 break;
@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
                 M5Note.changeID2China();
                 infoViewer.setText("Operation complete.");
                 break;
-            case "m3 mote":
+            case "m3 note":
                 M3Note.changeID2China();
                 infoViewer.setText("Operation complete");
                 break;
